@@ -1,0 +1,49 @@
+.Card {
+    display: block;
+    position: relative;
+    width: 342px;
+    height: 409px;
+    border-radius: 23px;
+    background-color: var(--bg-primary);
+    margin-left: 41px;
+    
+}
+
+.Card:hover{
+    transform: rotate(-0.01turn);
+}
+
+.card-header {
+    display: block;
+    width: 300px;
+    height: 168px;
+    margin-left: 19px;
+    background-color: var(--amaranth);
+}
+.card-header-text{
+    display: block;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    text-align: right;
+    margin: 0px 18px 0px 0px;
+    font-size: 48px;
+    color:var(--bg-primary)
+}
+
+.card-content{
+    display: block;
+    margin-left: 19px;
+    margin-right: 23px;
+    height: 223px;
+}
+.card-user{
+    display: inline-block;
+    position: absolute;
+    width: 62px;
+    height: 62px;
+}
+
+.card-circle{
+    border-radius: 50%;
+}

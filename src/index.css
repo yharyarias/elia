@@ -1,0 +1,149 @@
+:root {
+    --bg-primary: #E5E5E5;
+    --amaranth: #893168;
+    --darkpurple: #4A1942;
+    --honeydew: #E8F7EE;
+    --coolgray: #9A98B5;
+}
+
+html,body {
+    margin:0;
+    padding:0;
+    height: 100%;
+    width: 100%;
+}
+#root{
+    height: 100%;
+    width: 100%;
+}
+
+.App{
+    width: 100%;
+    height: 100%;
+    background-color: #E5E5E5;
+    overflow-y: auto;
+}
+
+.logo {
+    position: relative;
+    width: calc(1747*0.1);
+    height: calc(1240*0.1);
+    left: 49px;
+    top: 17px;
+    width: 100px;
+}
+
+section {
+    height: auto;
+    width: 100%;
+}
+
+.purple {
+    align-items: center;
+    justify-content: center;
+    background-color: var(--darkpurple);
+    border-top-left-radius: 28px;
+    border-top-right-radius: 28px;
+}
+.purple > h3 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 37px;
+
+    text-align: center;
+    color:white;
+}
+
+.font-llamativo{
+    top:50px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    text-align:center;
+
+    color: var(--darkpurple);
+}
+
+.font-llamativo2{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    text-align:left;
+    margin-left: 36px;
+
+    color: var(--darkpurple);
+}
+
+.font-intermedio{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    text-align: center;
+
+    color: var(--darkpurple);
+}
+
+.font-intermedio2{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 33px;
+    color: var(--darkpurple);
+}
+
+.font-texto{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: left;
+    padding: 5%;
+
+    color: var(--darkpurple);
+}
+
+.font-enfoque{
+    margin: 0px ;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+
+    color: var(--darkpurple);
+}
+.box-enfoque {
+    margin-left: 26px ;
+    padding-left: 7px;
+    border-left: 5px solid;
+
+    color: var(--darkpurple);
+}
+
+
+.boton-primario {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    width: 285px;
+    height: 84px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--darkpurple);
+    color: white;
+}
+
+.centrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
