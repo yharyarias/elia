@@ -5,7 +5,7 @@ function Secciones() {
     return (
         <React.Fragment>
             <section>
-                <img alt="Logo" className="logo" src="elia/logoElia.png" />
+                <img alt="Logo" className="logo" src="logoElia.png" />
                 <p className="font-llamativo">Despega tu camino a la inteligencia artificial</p>
                 <p className="font-intermedio">Invertimos en ti. <br /> Creemos en ti.</p>
                 <div className="centrar"><p className="boton-primario">Comienza con nuestro career path</p></div>
