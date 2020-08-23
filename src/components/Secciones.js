@@ -22,7 +22,13 @@ function Secciones() {
             </section>
             <section className="purple">
                 <h3>Cursos avanzados</h3>
-                <Card title="omar" img="logoElia.png" textHead="Creando el GPT-2"/>
+                <Card title="6 lecciones | 4 horas con Omar Espejel" type="Avanzado" price="$20 mil COP" img="logoElia.png" textHead="Creando el GPT-2" />
+                <Card title="12 lecciones | 8 horas con Omar Espejel" type="Avanzado" price="$20 mil COP" img="logoElia.png" textHead="Transformers" />
+            </section>
+            <section className="coolgray">
+                <h3>Gratuitos</h3>
+                <Card title="4 lecciones | 3 horas con Omar Espejel" type="Principiante" price="Gratis" img="logoElia.png" textHead="Python para I.A." />
+                <Card title="4 lecciones | 3 horas con Omar Espejel" type="Principiante" price="Gratis" img="logoElia.png" textHead="Usando tensores" />
             </section>
         </React.Fragment>
     );

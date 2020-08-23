@@ -36,6 +36,7 @@ html,body {
 section {
     height: auto;
     width: 100%;
+    padding-bottom: 70px;
 }
 
 .purple {
@@ -46,6 +47,7 @@ section {
     border-top-right-radius: 28px;
 }
 .purple > h3 {
+    margin-top: -30px;
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
@@ -53,6 +55,24 @@ section {
 
     text-align: center;
     color:white;
+}
+
+.coolgray {
+    align-items: center;
+    justify-content: center;
+    background-color: var(--coolgray);
+    border-top-left-radius: 28px;
+    border-top-right-radius: 28px;
+}
+.coolgray > h3 {
+    margin-top: -30px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 37px;
+
+    text-align: center;
+    color:var(--darkpurple);
 }
 
 .font-llamativo{
