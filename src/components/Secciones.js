@@ -16,19 +16,20 @@ function Secciones() {
                 <p className="font-texto">Olvidate de temas que no te interesan. Solo te enseñamos lo que necesitas para hacer inteligencia artificial</p>
                 <div className="box-enfoque"><p className="font-enfoque">Accede a la comunidad</p></div>
                 <p className="font-texto">Crea lazos con otros estudiantes, encuentra empleo con nuestras ofertas, conoce a tus próximos colaboradores.</p>
-            </section>
-            <section>
+                <br/>
+                <br/>
                 <p className="font-llamativo2">Empieza desde cero con nuestro career path o elige el curso que necesites</p>
-            </section>
+                <br/>
+            </section>            
             <section className="purple">
                 <h3>Cursos avanzados</h3>
                 <Card title="6 lecciones | 4 horas con Omar Espejel" type="Avanzado" price="$20 mil COP" img="logoElia.png" textHead="Creando el GPT-2" />
-                <Card title="12 lecciones | 8 horas con Omar Espejel" type="Avanzado" price="$20 mil COP" img="logoElia.png" textHead="Transformers" />
+                <Card title="12 lecciones | 8 horas con Omar Espejel" type="Avanzado" price="$20 mil COP" img="logoElia.png" textHead="Transformers" />                
             </section>
             <section className="coolgray">
                 <h3>Gratuitos</h3>
                 <Card title="4 lecciones | 3 horas con Omar Espejel" type="Principiante" price="Gratis" img="logoElia.png" textHead="Python para I.A." />
-                <Card title="4 lecciones | 3 horas con Omar Espejel" type="Principiante" price="Gratis" img="logoElia.png" textHead="Usando tensores" />
+                <Card title="4 lecciones | 3 horas con Omar Espejel" type="Principiante" price="Gratis" img="logoElia.png" textHead="Usando tensores" />                
             </section>
         </React.Fragment>
     );
